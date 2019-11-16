@@ -91,3 +91,41 @@ div.content .header .profile  img:hover {
   box-shadow: 0 0 0.3rem 0.4rem rgba(247, 244, 244, 0.959);
   border-radius: 50%;
 }
+
+
+
+
+
+
+
+
+
+
+
+/*Header on smaller screens*/
+@media only screen and (max-width:400px) {
+
+
+div.content .header .logo  img {
+  
+  width: 110px;
+  height: 23px;
+  top: 21px;
+  left: 5px;
+  padding-left: 0.8rem;
+}
+
+div.content .header .profile span strong {
+
+  display: none;
+}
+
+
+ div.content .header .profile  img {
+  
+  width: 32px;
+  height: 32px;
+  top: 18px;
+  right: 1rem;
+ }
+}
