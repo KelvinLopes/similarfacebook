@@ -9,31 +9,31 @@ class PostList extends Component {
         {
           id: 1,
           author: {
-            name: "",
-            avatar: ""
+            name: "Teste",
+            avatar: "http://url-da-imagem.com/imagem.jpg"
           },
-          date: "",
-          content: "",
+          date: "Hoje",
+          content: "Em de oportunidades",
           comments: [
             {
               id: 1,
               author: {
-                name: "",
-                avatar: ""
+                name: "Teste2",
+                avatar: "http://url-da-imagem.com/imagem.jpg"
               },
-              content: ""
+              content: "Temos uma otima oportunidade para você!"
             }
           ]
         },
         {
           id: 2,
           author: {
-            name: "",
-            avatar: ""
+            name: "Teste",
+            avatar: "http://url-da-imagem.com/imagem.jpg"
           },
-          date: "",
-          content: "",
-        }
+          date: "Hoje",
+          content: "Eu também busco por de oportunidades",
+        },
       ]
     };
   

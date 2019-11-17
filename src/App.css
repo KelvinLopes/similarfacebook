@@ -30,7 +30,7 @@ strong, p, em, h1, h2, h3, h4, h5, h6, a, li {
   max-height: 100vh;
   display: flex;
   background: #eee;
-  margin: 2rem auto;
+  margin: 0 auto;
   position: relative;
   align-items: center;
   justify-content: center;
@@ -119,8 +119,8 @@ div.container .post {
   width: 70vw;
   height: 25vh;
   background: #fff;
-  position: absolute;
-  margin: 5rem auto;
+  position: relative;
+  margin: 3rem auto 0;
   border-radius: 0.5rem;
   display: flex;
   align-items: center;
@@ -129,7 +129,14 @@ div.container .post {
 }
 
 
-
+div.container .post .post-content {
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  flex: 1 0 auto;
+}
 
 
 
@@ -165,5 +172,14 @@ div.content .header .profile span strong {
  div.container .post {
   
   width: 100vw;
+ }
 }
-}
+
+@media only screen and (max-width:700px) {
+
+  div.container .post {
+  
+    width: 100vw;
+  }
+  
+ }
