@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-
-
 import logo from '../assets/facebook-logo.svg';
 import profileIcon from '../assets/icon_profile.svg';
 
@@ -19,7 +17,6 @@ class Header extends Component {
       </div>
     </div>
     </div>
-
    )
   }
 }

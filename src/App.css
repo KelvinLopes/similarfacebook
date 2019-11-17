@@ -6,7 +6,13 @@
 }
 
 body {
-  background: #f2f2f2;
+  background: #eee;
+}
+
+strong, p, em, h1, h2, h3, h4, h5, h6, a, li {
+
+  text-rendering: optimizeSpeed !important;
+  -webkit-font-smoothing: antialiased !important;
 }
 
 .content {
@@ -14,6 +20,21 @@ body {
   width: 100vw;
   height: 64px;
   display: flex;
+}
+
+.container {
+
+  width: 100%;
+  max-width: 100vw;
+  height: auto;
+  max-height: 100vh;
+  display: flex;
+  background: #eee;
+  margin: 2rem auto;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  flex: 1 0 auto;
 }
 
 .content .header {
@@ -93,7 +114,19 @@ div.content .header .profile  img:hover {
 }
 
 
-
+div.container .post {
+  
+  width: 70vw;
+  height: 25vh;
+  background: #fff;
+  position: absolute;
+  margin: 5rem auto;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 0 auto;
+}
 
 
 
@@ -128,4 +161,9 @@ div.content .header .profile span strong {
   top: 18px;
   right: 1rem;
  }
+
+ div.container .post {
+  
+  width: 100vw;
+}
 }
