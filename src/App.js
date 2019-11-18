@@ -5,10 +5,13 @@ import PostList from './components/PostList';
 
 import './App.css';
 
-const allApp = [<Header />, <PostList/> ];
-
 function App() {
-  return allApp;
+  return (
+    <>
+      <Header />
+      <PostList />
+    </>
+    )
 }
 
 
