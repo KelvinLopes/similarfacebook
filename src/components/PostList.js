@@ -8,38 +8,61 @@ class PostList extends Component {
         {
           id: 1,
           author: {
-            name: "Teste",
+            name: "Kelvin Lopes",
             avatar: require("../assets/Perfil.jpg")
           },
           date: "17 nov 2019",
-          content: "Em de oportunidades",
+          content: "Procuro por oportunidades usando a stack: ReactJS, React Native e NodeJS.",
           comments: [
             {
               id: 1,
               author: {
-                name: "Teste2",
-                avatar: require("../assets/Perfil.jpg")
+                name: "Nathalia",
+                avatar: require("../assets/avatar2.svg"),
+                myAvatar: require("../assets/Perfil.jpg")
               },
-              content: "Temos uma otima oportunidade para você!"
+              content: " Bom saber, vou entrar em contato logo logo 🙂",
             }
           ]
         },
         {
           id: 2,
           author: {
-            name: "Teste",
-            avatar: require("../assets/Perfil.jpg")
+            name: "Erick",
+            avatar: require("../assets/avatar3.svg")
           },
           date: "17 nov 2019",
-          content: "Eu também busco por de oportunidades",
+          content: "Essa stack é realmente sensacional!",
           comments: [
             {
               id: 1,
               author: {
-                name: "Teste2",
-                avatar: require("../assets/Perfil.jpg")
+                name: "Deise",
+                avatar: require("../assets/avatar4.svg"),
+                myAvatar: require("../assets/Perfil.jpg")
               },
-              content: "Temos uma otima oportunidade para você!"
+              content: "Eu concordo! Vejo infinitas possibilidades com ela."
+            }
+          ]
+        },
+        {
+          id: 3,
+          author: {
+            name: "Deise",
+            avatar: require("../assets/avatar4.svg"),
+            myAvatar: require("../assets/Perfil.jpg")
+          },
+          date: "18 nov 2019",
+          content: "Por falar nisso, vamos desenvolver algo hoje!",
+          comments: [
+            {
+              id: 1,
+              author: {
+                name: "Kelvin",
+                avatar: require("../assets/Perfil.jpg"),
+                myAvatar: require("../assets/Perfil.jpg")
+              },
+              content: "Gostei da ideia, vamos definir um projeto 🚀"
             }
           ]
         },
@@ -54,7 +77,7 @@ class PostList extends Component {
           this.state.posts.map(post => (
             <Post 
               key={ post.id }
-              data={post } 
+              data={ post }
             />
               )
             )
