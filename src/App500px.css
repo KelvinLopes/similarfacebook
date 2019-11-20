@@ -238,7 +238,7 @@ div.post .actions  {
   div.answer input {
  
     width: 800px;
-    max-width: 75vw;
+    max-width: 80vw;
     height: 10vh;
     background: #8d949e36;
     position: absolute;
@@ -262,8 +262,8 @@ div.post .actions  {
     margin-left: 4rem;
     padding: 0;
     bottom: 0;
-    top: 0.6rem;
-    left: 7rem;
+    top: 0.7rem;
+    left: 12rem;
   }
   
   div.answer .icons-input li:nth-child(2) {
@@ -272,7 +272,7 @@ div.post .actions  {
     padding: 0;
     bottom: 0;
     top: 0.6rem;
-    left: 12rem;
+    left: 16rem;
   }
 
   div.answer .icons-input li:nth-child(3) {
@@ -281,7 +281,7 @@ div.post .actions  {
     padding: 0;
     bottom: 0;
     top: 0.6rem;
-    left: 15rem;
+    left: 18rem;
   }
   
   div.answer .icons-input nav ul li {
