@@ -1,4 +1,5 @@
-@media screen and (device-width:640px), screen and (device-width:667px)  {
+@media screen and (device-width:640px), screen and (device-width:667px),
+screen and (device-width:600px)  {
 
   #app .content .container .postlist {
 
