@@ -30,7 +30,7 @@
 div.post .actions  {
 
   top: 1rem;
-  left: 12rem;
+  left: 0;
   margin: 0 auto;
   border-top: 1px solid #eee;
   padding: 0;
@@ -72,7 +72,7 @@ div.post .actions  {
     margin-left: 1rem;
     padding: 0;
     bottom: 0;
-    left: 4rem;
+    left: 12rem;
     top: -1.5rem;
     text-align: center;
   }
@@ -82,7 +82,7 @@ div.post .actions  {
     margin-left: 1rem;
     padding: 0;
     bottom: 0;
-    left: 4rem;
+    left: 14rem;
     top: -1.5rem;
     text-align: center;
   }
@@ -93,7 +93,7 @@ div.post .actions  {
     padding: 0;
     bottom: 0;
     top: -1.5rem;
-    left: 4rem;
+    left: 16rem;
     text-align: center;
   }
   

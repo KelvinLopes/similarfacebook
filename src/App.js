@@ -12,6 +12,7 @@ import './App600px.css';
 import './App731px736px.css';
 import './App768px.css';
 import './App800px.css';
+import './Appresolution.css';
 
 function App() {
   return (

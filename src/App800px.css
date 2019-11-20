@@ -1,5 +1,5 @@
 @media screen and (device-width:812px), screen and (device-width:823px),
- screen and (device-width:848px)  {
+ screen and (device-width:840px) {
 
   #app .content .container .postlist {
 
@@ -14,6 +14,10 @@
     position: relative !important;
   }
 
+  div.content .header .profile span strong {
+    
+    display: flex;
+  }
 
   p {
 
@@ -27,7 +31,7 @@
 div.post .actions  {
 
   top: 1rem;
-  left: 12rem;
+  left: 0;
   margin: 0 auto;
   border-top: 1px solid #eee;
   padding: 0;
@@ -69,7 +73,7 @@ div.post .actions  {
     margin-left: 0;
     padding: 0;
     bottom: 0;
-    left: 2rem;
+    left: 11rem;
     top: -2.5rem;
     text-align: center;
   }
@@ -79,7 +83,7 @@ div.post .actions  {
     margin-left: 6rem;
     padding: 0;
     bottom: 0;
-    left: 2rem;
+    left: 13rem;
     top: -2.5rem;
     text-align: center;
   }
@@ -90,7 +94,7 @@ div.post .actions  {
     padding: 0;
     bottom: 0;
     top: -2.5rem;
-    left: 4rem;
+    left: 15rem;
     text-align: center;
   }
   

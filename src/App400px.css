@@ -1,4 +1,6 @@
-@media  screen and (device-width:411px), screen and (device-width:414px) {
+@media  screen and (device-width:411px), screen and (device-width:414px),
+ screen and (device-width:400px), screen and (device-width:420px),
+ screen and (device-width:430px), screen and (device-width:470px) { 
 
   #app .content .container .postlist {
 
@@ -30,7 +32,7 @@
 div.post .actions  {
 
   top: 1rem;
-  left: 12rem;
+  left: 0;
   margin: 0 auto;
   border-top: 1px solid #eee;
   padding: 0;
@@ -72,7 +74,7 @@ div.post .actions  {
     margin-left: 1rem;
     padding: 0;
     bottom: 0;
-    left: 4rem;
+    left: 13rem;
     top: -1.5rem;
     text-align: center;
   }
@@ -82,7 +84,7 @@ div.post .actions  {
     margin-left: 1rem;
     padding: 0;
     bottom: 0;
-    left: 4rem;
+    left: 15rem;
     top: -1.5rem;
     text-align: center;
   }
@@ -93,7 +95,7 @@ div.post .actions  {
     padding: 0;
     bottom: 0;
     top: -1.5rem;
-    left: 4rem;
+    left: 17rem;
     text-align: center;
   }
   
