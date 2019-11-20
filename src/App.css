@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  border: 0;
 }
 
 body {
@@ -16,6 +17,26 @@ strong, p, em, h1, h2, h3, h4, h5, h6, a, li {
   -webkit-font-smoothing: antialiased !important;
 }
 
+p  {
+
+  width: 100%;
+  max-width: 100vw;
+}
+
+
+#app .container  .content  {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  flex: 1 0 auto;
+  top: 18rem;
+  position: relative !important;
+}
+
 .content {
   
   width: 100vw;
@@ -26,7 +47,8 @@ strong, p, em, h1, h2, h3, h4, h5, h6, a, li {
 
 .content .header {
   
-  width: 100vw;
+  width: 100%;
+  max-width: 100vw;
   height: 64px;
   background: #4a90e2;
   display: flex;
@@ -157,11 +179,11 @@ div.post .post-content > p {
 div.post .actions  {
 
   top: 7rem;
-  left: 1.2rem;
-  right: 1.2rem;
+  left: 1.5rem;
+  right: 1.3rem;
   margin: 5rem auto;
   border-top: 1px solid #eee;
-  padding: 3rem;
+  padding: 3rem 0 3rem 0;
   position: absolute !important;
   width: 680px;
   height: 20px;
@@ -172,7 +194,7 @@ div.post .actions ul li {
 
   top: -8rem;
   right: 1.2rem;
-  left: 4rem;
+  left: 7rem;
   padding: 3rem;
   position: relative !important;
   list-style: none;
@@ -444,155 +466,3 @@ div.answer .icons-input nav ul li img {
   width: 48vw;
   height: 48vh;
 }
-/*
-/*Header on smaller screens*/
-@media only screen and (max-width:400px) {
-
-
-div.content .header .logo  img {
-  
-  width: 110px;
-  height: 23px;
-  top: 21px;
-  left: 5px;
-  padding-left: 0.8rem;
-}
-
-div.content .header .profile span strong {
-
-  display: none;
-}
-
-
- div.content .header .profile  img {
-  
-  width: 32px;
-  height: 32px;
-  top: 18px;
-  right: 1rem;
- }
-
- div.container .post {
-  
-  width: 100vw;
- }
-
- div.name-author span {
-
-
-  position: absolute;
-  margin: 0 auto;
-  top: 1rem;
-  left: 5rem;
-  z-index: 1;
-}
-
-
-div.date  {
-
-  
-  position: absolute;
-  margin: 0 auto;
-  top: 2rem;
-  left: 5rem;
-  z-index: 1;
-
-}
-
-div.post  img {
-
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  position: absolute;
-  top: 1rem;
-  left: 1rem;
-  z-index: 1;
-}
-
-/*Comments*/
-div.comments   img {
-
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  position: absolute;
-  top: 10rem;
-  left: 2rem;
-  z-index: 1;
-}
-
-div.comments {
-  
-  border-radius: 100%;
-}
-
-div.comments  .post-comment .name-comment {
-  width: 620px;
-  max-width: 65vw;
-  height: 150px;
-  background: #eee;
-  position: absolute;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex: 1 0 auto;
-  top: 10rem;
-  right: 2rem;
-  border-radius: 5%;
-}
-
-
-div.post .post-content > p {
-
-  top: 3rem;
-  left: 0;
-  right: 1rem;
-  margin: 0 auto;
-  border-bottom: 1px solid #eee;
-  padding: 2rem;
-  position: absolute !important;
-  width: auto;
-}
-
-div.post .post-content {
-
-  border-bottom: 1px solid #eee;
-
-}
-
-}
-
-@media only screen and (max-width:700px) {
-
-  div.container .post {
-  
-    width: 100vw;
-  }
-
-  /*Comments*/
-  div.comments img {
-  
-  
-    position: absolute;
-    top: 1rem;
-    left: -6rem;
-    z-index: 1;
-  }
-  div.comments {
-    
-    width: 620px;
-    max-width: 65vw;
-    height: 150px;
-    top: 10rem;
-    right: 4rem;
-    border-radius: 5%;
-    left: 3rem;
-  }
-  
- }
- 

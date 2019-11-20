@@ -30,9 +30,9 @@ class Post extends Component {
           </div>
           <nav className="actions">
             <ul>
-              <li><img src={like} alt="Button Like"/> Curtir</li>
-              <li><img src={comment} alt="Button Comment"/> Comentar</li>
-              <li><img src={share} alt="Button Share"/>  Compartilhar</li>
+              <li><img className="like-icon" src={like} alt="Button Like"/> Curtir</li>
+              <li><img className="comment-icon" src={comment} alt="Button Comment"/> Comentar</li>
+              <li><img className="share-icon" src={share} alt="Button Share"/>  Compartilhar</li>
             </ul>
           </nav>
        <div>

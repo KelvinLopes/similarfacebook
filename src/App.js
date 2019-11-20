@@ -4,6 +4,15 @@ import PostList from './components/PostList';
 
 
 import './App.css';
+import './App320px.css';
+import './App360px.css';
+import './App375px.css';
+import './App400px.css';
+import './App500px.css';
+import './App600px.css';
+import './App731px736px.css';
+import './App768px.css';
+import './App800px.css';
 
 function App() {
   return (
