@@ -20,4 +20,6 @@ Por exemplo: App300px.css, possuí tela de 360px e 375px.
  📱 💻 🖥️
 
 
+* Melhorias no posicionamento dos itens.
+
 * Fonte dos icones: Iconfinder, exceto o do avatar de login do header, esse eu criei.
