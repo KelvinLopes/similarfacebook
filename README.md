@@ -1,7 +1,7 @@
 # similarfacebook 🎩🚀
 
 <p align="center">
-  <img src="https://github.com/KelvinLopes/similarfacebook/blob/master/similarFacebook.png">
+  <img src="https://github.com/KelvinLopes/similarfacebook/blob/master/similarFacebook.png" alt="similarfacebook">
 </p>
 
 Desafio do 4º modulo do bootcamp GoStack Rocketseat, consiste em criar um layout estático semelhante ao do Facebook.
